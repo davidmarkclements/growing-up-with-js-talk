@@ -1,0 +1,24 @@
+{
+  "name": "growing-up-with-js-deck",
+  "version": "1.0.0",
+  "skin": "@deck/plain",
+  "scripts": {
+    "start": "present"
+  },
+  "files": [
+    "deck.md",
+    "images",
+    "source"
+  ],
+  "preferGlobal": true,
+  "author": "David Mark Clements",
+  "license": "",
+  "bin": {
+    "present-growing-up-with-js-deck": "./node_modules/.bin/present"
+  },
+  "dependencies": {
+    "@deck/plain": "^1.0.5",
+    "@deck/present": "^1.0.0"
+  },
+  "licence": ""
+}
